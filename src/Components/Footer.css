@@ -1,6 +1,10 @@
 .main-footer {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    
+    color: gray;
+    background-color: blanchedalmond;
+    padding-top: 3em;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
 }

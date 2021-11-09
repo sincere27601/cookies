@@ -5,9 +5,15 @@ import ".//Footer.css";
 function Footer() {
     return (
         <div className="main-footer">
-            <h4>Contact Info</h4>
+        <div className="container">
+        <div className="row">
+        <br />
+         <h4>Contact | Yelp | Phone</h4>
+        
         </div>
-    )
+        </div>
+        </div>
+    );
 }
 
 export default Footer;
