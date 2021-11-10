@@ -3,9 +3,13 @@
   flex-direction: row;
   align-items: top;
   justify-content: top;
+  color: antiquewhite;
 }
-
-.App-header {
+.container {
+  position: fixed;
+ 
+}
+.container1 {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -14,7 +18,11 @@
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
+
+
+
 
 .picture1{
   height: 10%;
@@ -45,4 +53,35 @@
     letter-spacing: .3px;
     padding: 0 0 1.875rem;
   }
+
+  .content-wrap-center {
+  display: flex;
+  align-items: center;
+  color: antiquewhite;
+  font-family: cursive;
+  }
+
+  .header-photos {
+  min-height: 25%;
+  display: flex;
+  align-items: center;
+  
+  }
+
+.header-name {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer-hours {
+  margin-left: 250px;
+}
+
+
 
