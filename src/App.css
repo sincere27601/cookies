@@ -1,29 +1,46 @@
+* {
+  cursor: pointer;
+}
+::-webkit-scrollbar{
+  width: 25px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: indianred;
+}
+
 
 body {
-  background-color: #282c34;
+  background-color: #1a2a4b;
+  box-sizing: border-box;
+  border: solid antiquewhite 10PX;
+ 
 }
 .name1 {
   color: antiquewhite;
   box-sizing: border-box;
-  width: 100%;
-  border: solid antiquewhite 10PX;
-  padding: px;
-  margin: 20px;
+  width: 75%;
+  
+  padding-left: 310px;
+  margin: 30px;
+  margin-left: 50px;
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
   font-size: 55px;
-  font-style: Arial;
+  font-family: cursive;
 }
 
 .container {
   position: fixed;
- 
+  
 }
+
 .container1{
   background: #282c34;
   width: 100%;
   
 }
+
 
 
 .form {
@@ -32,8 +49,9 @@ body {
   border: solid antiquewhite 10PX;
   padding: 5PX;
   margin: 10px;
-  background-color: #282c34;
-
+  background-color: #1c2c4b;
+  position: fixed;
+  
 }
 
 .picture1{
@@ -48,22 +66,56 @@ body {
   
 }
 
+.picture2 {
+  height: 20%;
+  width: 10%;
+  box-sizing: border-box;
+  border: solid antiquewhite 5PX;
+  padding-left: -10px;
+  margin-right: 50px;
+  margin-top: 10px;
+  text-align: right;
+  border-radius: 100%;
+  margin: 130px;
+  padding-left: -30px;
+  max-width: 180px;
+}
+
+.picture3 {
+  height: 10%;
+  width: 10%;
+  box-sizing: border-box;
+  border: solid antiquewhite 5PX;
+  padding-left: -10px;
+  margin-right: 50px;
+  margin-top: 0px;
+  text-align: right;
+  border-radius: 100%;
+  margin: 100px;
+  padding-left: -30px;
+  display: inline-block;
+  max-width: 10%;
+}
+
+
+
 .main-footer{
   
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: beige 20px;
+  width: 96%;
+  height: 20px;
+  background-color: rgb(240, 240, 152) 20px;
   color: black;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-top: 20px;
 
     clear: both;
     letter-spacing: .3px;
-    padding: 0 0 1.875rem;
+    padding: 0 10px 1.875rem;
   }
 
   .content-wrap-center {
@@ -74,10 +126,10 @@ body {
   }
 
   .header-photos {
-  min-height: 25%;
+  min-height: 20%;
   display: flex;
-  align-items: center;
-  width: 100%;
+  justify-content: space-evenly;
+  
   }
 
   .maincenter{

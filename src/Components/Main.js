@@ -8,9 +8,14 @@ function Main() {
         
        
       <div className="form">
-         <p>Trained & Certified, mobile notary, loan signing agent</p>
-         <p>E Notary available upon request</p>
+         <h2>What We Do</h2>
+         <p>Trained & Certified mobile notary and loan signing agent.</p>
+         <h2>Disclaimer</h2>
+         <p>This website is soley for notarization loan signing purposes.
+          We do not provide adivce regarding legal matters.</p>
         </div>
+        
+       
         
         
 

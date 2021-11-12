@@ -2,12 +2,16 @@ import React from 'react';
 import Footer from './Components/Footer';
 import './App.css';
 import Main from "./Components/Main";
-
+import { Scrollbars } from 'react-custom-scrollbars';
 
 
 function App() {
   return (
+    
+    
+    
     <div>
+    
     <div className="header-photos">
     <h1 className="name1"> A. R. Signing Services</h1>
    
@@ -21,7 +25,7 @@ function App() {
     </div>
     <div className="header-photos">
     </div>
-     
+    
       <div className="content-wrap-center">
       <Main />
       </div>
@@ -32,9 +36,11 @@ function App() {
     </div>
     <Footer />
     </div>
+    
     </div>
+    
     </div>
-      
+    
       
      
 
