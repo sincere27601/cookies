@@ -7,7 +7,8 @@ function Main() {
     return (
         
        
-      <div className="form">
+       <div className="form">
+     
          <h2>What We Do</h2>
          <p>Trained & Certified mobile notary and loan signing agent.</p>
          <h2>Disclaimer</h2>
@@ -15,7 +16,6 @@ function Main() {
           We do not provide adivce regarding legal matters.</p>
         </div>
         
-       
         
         
 
