@@ -1,8 +1,6 @@
 import React from 'react';
 import ".//Footer.css";
-import EmailIcon from '@mui/icons-material/Email';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+
 
 function Footer() {
     return (
